@@ -1,0 +1,263 @@
+body
+{
+	background-image: url(../images/newbackground.gif);
+	background-repeat:repeat-x;
+	height:100%;
+	color:#3D3D3D;
+	font-family:Arial;
+	font-size:12px;
+	margin: 0; 
+	padding: 0; 
+}
+
+#header
+{
+	clear:both; 
+	padding-bottom:10px; 
+	/*background-image: url(../images/new_banner.jpg);*/
+	background-image: url(../images/client-banner.jpg);
+	width: 922px;
+	height:90px;
+}
+
+#headerCopy
+{
+    font-size:14px;
+    font-weight:bold;
+    margin-left:280px;
+    padding-top:40px;
+}
+
+#nav
+{
+	/*clear:both;*/ 
+	margin-left:20px; 
+	/*margin-top:-7px;*/
+	width: 700px;
+}
+a:link {color: #3D3D3D; text-decoration: none}
+a:visited {color: #3D3D3D; text-decoration: none}
+a:hover {color: #FE0300; text-decoration: none}
+a:active {color: #FE0300; text-decoration: none}
+
+
+#topShadow
+{
+	/*
+	width:800px; 
+	margin:auto; 
+	background-image: url(../images/topShadow2.gif);
+	background-repeat:repeat-x;
+	margin-bottom:-2px;
+*/
+	clear: both;
+	width: 800px;
+	height: 22px;
+	text-align:left;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#bottomShadow
+{
+	/*
+	width:800px; 
+	margin:auto; 
+	background-image: url(../images/bottomShadow.gif);
+	background-repeat:repeat-x;
+	*/
+	clear: both;
+	width: 942px;
+	height: 22px;
+	text-align:left;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#footer
+{
+	/*
+	width:800px; 
+	margin:auto; 
+	background-image: url(../images/bottomShadow.gif);
+	background-repeat:repeat-x;
+	*/
+	clear: both;
+	width: 800px;
+	height: 100px;
+	text-align:left;
+	padding: 0;
+	margin: 0 auto;
+
+}
+
+#footer_copy
+{
+	float:left; 
+	font-family:Arial;
+	font-size:12px;
+	margin-left:120px;
+}
+
+#main
+{
+	width:922px; 
+	padding-left: 0px;
+	padding-right: 0px;
+	background-color:White;
+	float:left;
+	/*border-style:solid;
+	border-width:1px;
+	border-bottom-color:Black;*/
+
+}
+
+#leftShadow
+{
+	/*
+	width:17px;
+	float:left;
+	background-image: url(../images/leftShadow.gif);
+	background-repeat:repeat-y;*/
+	float: left;
+	width: 15px;
+	height: 100%;
+	text-align:right;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#content
+{
+	width:970px; 
+	margin:auto; 
+	overflow: hidden;
+    position: relative;
+
+}
+
+#rightShadow
+{
+	/*
+	width:13px;
+	background-image: url(../images/shadow_right.png);
+	float:right;
+	height:100%;
+    position: absolute;
+    right: 0;
+	*/
+
+	
+	float: left;
+	width: 13px;
+	height: 100%;
+	text-align:left;
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+div.thumbnail
+{
+	
+	float: left;
+	clear:left;
+	text-align:center;
+	font-size:12px;
+	padding-top:30px;
+	padding-right:25px;
+	font-weight:bold;
+}
+
+#topleft
+{
+
+	text-align: center;
+	float:left;
+	/*background-color:Yellow;*/
+}
+
+
+.frame
+{
+	width: 326px;
+	padding: 8px;
+}
+
+/*
+.frame
+{
+	width: 426px;
+	padding-top: 50px;
+	height:290px;
+	/*background-image: url(../images/new_frame.jpg);
+}
+*/
+.desc { 
+background-image : url(../images/IconArrowUp.gif);
+background-repeat : no-repeat;
+
+}
+.asc {
+background-image : url(../images/IconArrowDown.gif);
+background-repeat : no-repeat;
+
+}
+.neutral
+{
+
+}
+
+.selected
+{
+	background-color:#FFE97A;
+}
+
+th a:link {color: #3D3D3D; text-decoration: underline}
+th a:visited {color: #3D3D3D; text-decoration: underline}
+th a:hover {color: #FE0300; text-decoration: underline}
+th a:active {color: #FE0300; text-decoration: underline}
+
+h1 a:link {color: #3D3D3D; text-decoration: underline}
+h1 a:visited {color: #3D3D3D; text-decoration: underline}
+h1 a:hover {color: #FE0300; text-decoration: underline}
+h1 a:active {color: #FE0300; text-decoration: underline}
+
+.tbCenter
+{
+	text-align:center;
+}
+
+.heavy {font-weight: bold;}
+
+.edited {background-color:Yellow};
+
+.major {font-weight: bold; font-size:large}
+
+.warning {font-weight: bold; color:Red}
+
+#hello
+{
+    padding-top:30px;
+    width:348px;
+	float: left;
+	clear: right;
+	font-size:14px;
+	padding-left:10px;
+}
+
+#selling_point
+{
+    color:Red;
+    font-weight:bold;
+}
+
+.status
+{
+    position:absolute; 
+    top:320px; 
+    left:410px;
+}
+
+.nav {
+    cursor:pointer
+}

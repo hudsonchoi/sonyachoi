@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>북부 뉴저지 부동산 공인 중개사 Sonya Choi</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" media="screen"/>
+    <meta name="keywords" content="뉴저지 부동산, 뉴저지,부동산,new jersey,real estate,real,estate,agent,rent,home,house,apartment,bergen county" />
+    <meta name="description" content="뉴저지 부동산 전문인 Sonya Choi New Jersey real estate agent house apartment Bergen county" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="content">
+    <div id="leftShadow"><img src="/images/shadow_left.png" width="13" height="1550" /></div>
+        <div id="main">
+<div id="header"><div id="headerCopy">북부 뉴저지 부동산 공인 중개사 Sonya Choi</div>
+<div style="margin-left:800px"><a href="./admin" target="_blank"><img src="/images/spacer.gif" width="20" height="34" border="0"/></a></div>
+</div>
+<div id="nav">
+<table style="width:900px"><tr><td>
+    <a href="/"><img src="/images/nav/home.jpg" border="0"/>홈</a>&nbsp;&nbsp;&nbsp;
+    <a href="/listings.aspx?type_id=100"><img src="/images/nav/Sale.jpg" border="0"/>매매</a>&nbsp;&nbsp;&nbsp;<a href="/listings.aspx?type_id=200"><img src="/images/nav/rent.jpg" border="0" />렌트</a></td>
+    <td style="text-align:right; vertical-align:top" align="right">
+        <div><b>info@sonyachoi.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;미국:(C)201-233-0952&nbsp;&nbsp;(F)201-461-2626</b>&nbsp;&nbsp;</div>
+        <div><b>입력 일시:</b> <asp:Literal ID="ltrLastModified" runat="server"></asp:Literal> (미국 동부 시간)</div>
+    </td>
+
+    </tr></table>
+</div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
+      <div id="rightShadow"><img src="/images/shadow_right.png" width="13" height="1550" /></div>
+      <div id="bottomShadow"><img src="/images/shadow_bottom.png" width="922" height="22" /></div>
+      <div id="footer">
+      <div id="footer_copy">
+      &copy; Copyright 2014 Sonya S. Choi www.sonyachoi.com<br />
+      Realty 7 LLC. 318 Bergen Blvd. Palisades Park, NJ 07650<br />
+      (C)201-233-0952 (O)201-461-1112 (F)201-461-2626<br />
+      info@sonyachoi.com
+      </div>
+      <div style="float:left">
+     <img src="/images/logos.gif" />
+      </div>
+      </div>
+     </div>
+     <br /><br /><br /><br /><br /><br />
+    </form>
+</body>
+</html>
