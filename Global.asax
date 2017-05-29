@@ -16,6 +16,7 @@
         
     void Application_Error(object sender, EventArgs e) 
     {
+        /*
         string strHandledMessage = String.Empty;
         if (Server.GetLastError().ToString().IndexOf("does not exist") >= 0)
         {
@@ -81,6 +82,7 @@
             Response.Redirect("/error.aspx");
 
         }
+        */
 
     }
 
