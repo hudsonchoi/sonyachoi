@@ -16,7 +16,6 @@
         
     void Application_Error(object sender, EventArgs e) 
     {
-        /*
         string strHandledMessage = String.Empty;
         if (Server.GetLastError().ToString().IndexOf("does not exist") >= 0)
         {
@@ -64,7 +63,8 @@
             {
                 System.Net.Mail.MailAddress fromAddress = new System.Net.Mail.MailAddress("webmaster@sonyachoi.com", "Debugger");
                 smtpClient.Host = System.Configuration.ConfigurationManager.AppSettings["SMTPServer"].ToString();
-                smtpClient.Port = 26;
+                //smtpClient.Port = 26;
+                smtpClient.Port = 587;
                 smtpClient.UseDefaultCredentials = false;
                 smtpClient.Credentials = basicCredential;
                 message.From = fromAddress;
@@ -82,7 +82,7 @@
             Response.Redirect("/error.aspx");
 
         }
-        */
+        
 
     }
 
