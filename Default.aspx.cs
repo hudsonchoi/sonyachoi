@@ -35,8 +35,7 @@ public partial class _Default : System.Web.UI.Page
             string ip = HttpContext.Current.Request.ServerVariables["HTTP_X_FORWARDED_FOR"];
             if (ip == null || ip.ToLower() == "unknown")
                 ip = HttpContext.Current.Request.ServerVariables["REMOTE_ADDR"];
-
-            var url = "http://freegeoip.net/json/" + ip;
+            var url = "http://api.ipstack.com/" + ip + "?access_key=d23275b51a5dae14e4d8d333a2d16f4d&output=json&legacy=1";
             var client = new WebClient();
             var content = client.DownloadString(url);
 
