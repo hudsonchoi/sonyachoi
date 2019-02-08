@@ -36,8 +36,8 @@
       <div id="bottomShadow"><img src="/images/shadow_bottom.png" width="922" height="22" /></div>
       <div id="footer">
       <div id="footer_copy">
-      &copy; Copyright 2014 Sonya S. Choi www.sonyachoi.com<br />
-      Realty 7 LLC. 318 Bergen Blvd. Palisades Park, NJ 07650<br />
+      &copy; Copyright <%=DateTime.Now.Year%> Sonya S. Choi www.sonyachoi.com<br />
+      Realty 7 LLC. 2160 North Central Rd. Suite 207 Fort Lee, NJ 07024<br />
       (C)201-233-0952 (O)201-461-1112 (F)201-461-2626<br />
       info@sonyachoi.com
       </div>
