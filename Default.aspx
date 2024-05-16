@@ -20,9 +20,12 @@
 <div class="thumbnail">
     <img src="images/photos/headshot_small2.jpg" /><br />
     Sonya Choi<br />
+    NJ Realtors® <br />
+    Circle of Excellence<br />
+    Sales Award® 2020,2021 <br />
     info@sonyachoi.com<br />
     미국:(C)201-233-0952<br />
-    (F)201-461-2626 
+    (F)201-781-0010
 </div>
 <div id="hello">
 <p>뉴저지는 Palisades Park과 Fort Lee를 중심으로 한인들의 상권이 발달되어있습니다.</p>
